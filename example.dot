@@ -1,0 +1,11 @@
+graph RoadNetwork{
+	madison -- milwaukee [label="U-94" distance=80];
+	madison -- chicago [label="I-90" distance=147];
+	milwaukee -- chicago [label="I-94" distance=93];
+	milwaukee -- chicago [label="I-94" distance=97];
+	van hise -- memorial union [distance=4]
+
+	madison [label=Madison size=270000];
+	milwaukee [label=Milwaukee size=570000];
+	chicago [Label=Chicago size=270000];
+}
